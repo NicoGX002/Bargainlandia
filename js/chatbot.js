@@ -4,7 +4,7 @@
 // 1. Ve a https://aistudio.google.com/
 // 2. Inicia sesión con tu cuenta de Google y dale a "Get API Key".
 // 3. Copia la llave que te dan y pégala exactamente entre las comillas de abajo:
-const GEMINI_API_KEY = "PEGA_TU_LLAVE_AQUI_DENTRO"; 
+const GEMINI_API_KEY = "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"; 
 
 // ------------------------------------------
 

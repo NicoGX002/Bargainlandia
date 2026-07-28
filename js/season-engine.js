@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
     section.innerHTML = `
       ${introData.extraHTML}
       <h1 class="cinematic-title">${introData.title}</h1>
-      <h2 class="cinematic-subtitle">${introData.subtitle}</h2>
+      ${introData.subtitle ? `<h2 class="cinematic-subtitle">${introData.subtitle}</h2>` : ''}
       <div class="scroll-down-hint"><i class="fas fa-chevron-down"></i></div>
     `;
     
