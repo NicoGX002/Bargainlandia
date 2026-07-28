@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// 1. UPDATE STYLES.CSS
+// 1. UPDATE STYLES.CSS SSS
 let css = fs.readFileSync('styles.css', 'utf8');
 
 const newMadreCSS = `
